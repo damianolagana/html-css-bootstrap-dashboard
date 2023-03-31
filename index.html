@@ -12,28 +12,34 @@
 </head>
 <body>
     <header>
-        <nav class="navbar container-fluid navbar-expand-lg bg-light">
+        <nav class="navbar container-fluid navbar-expand-md bg-light">
             <div class="col-auto">
               <a class="navbar-brand" href="#">
                 <img src="./img/logo.svg" alt="Logo"  class="d-inline-block align-text-top">
                 
               </a>
             </div>
-            <form class="col">
+            <form class="col pe-3">
                 <div class="input-group">
-                  <span class="input-group-text" id="basic-addon1">@</span>
-                  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                  <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+                  <input type="text" class="form-control" placeholder="Prova a cercare: Lezioni di Lavarel" aria-label="Username" aria-describedby="basic-addon1">
                 </div>
             </form>
 
-            <div id="navRight" class="d-flex col-auto gap-3 p-3">
+            <div id="navRight" class="d-flex col-auto gap-3 p-3 d-none d-md-inline-flex ">
                 <i class="fa-solid fa-list"></i>
                 <i class="fa-solid fa-circle-question"></i>
                 <i class="fa-solid fa-ellipsis-vertical"></i>
                 <i class="fa-solid fa-bell"></i>
             </div>
+
+            <div class="navbar-toggler border-0" >
+                <i class="fa-solid fa-bell"></i>
+            </div>
         </nav>
     </header>
+
+   
     
 </body>
 </html>
