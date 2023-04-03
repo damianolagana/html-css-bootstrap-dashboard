@@ -7,3 +7,15 @@ header > nav{
 i.fa-bell{
     border: none;
 }
+
+
+/* MAIN */
+
+.pageWrap{
+   height: calc(100vh - 90px);
+}
+
+.sideBar{
+    width: 200px;
+}
+
